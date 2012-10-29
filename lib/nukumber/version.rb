@@ -1,7 +1,7 @@
 module Nukumber
   major = 0
-  minor = 3
-  release = 5
+  minor = 4
+  release = 0
 
   VERSION = "#{major}.#{minor}.#{release}"
 end
