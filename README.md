@@ -34,7 +34,6 @@ Feature: Ruby arithmetic functions
     | 1 | 2 | 3      |
     | 5 | 9 | 14     |
 
-
 Can be addressed by an equally silly Ruby file:
 
 def addition
