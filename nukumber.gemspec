@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Nukumber::VERSION
   s.summary     = "Run Gherkin feature files a bit more simply"
   s.description = "Specify your tests using Gherkin, but avoid the hassle of step definitions"
+  s.homepage    = "https://github.com/ibsh/nukumber"
   s.author      = "Ibrahim Sha'ath"
   s.email       = "nukumber@ibrahimshaath.co.uk"
 
