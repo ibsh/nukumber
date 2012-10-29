@@ -59,14 +59,16 @@ pure BDD perspective, but it's helpful when you're a tester on a complicated
 legacy system.
 
 What's common with Cucumber?
+* I must still tie the test code to the progression of passing/failing steps.
+* The test definition should still act as a thin translation layer between the
+  Gherkin and my Ruby test classes.
 * If the feature file changes, the test will fail.
 * I can still pass data into my test code from the Gherkin (any step arguments
   can be found in $args, and the current example for a Scenario Outline is in
   $example)
-* I must still tie the test code to the progression of passing/failing steps.
-* The test definition should still act as a thin translation layer between the
-  Gherkin and my Ruby test classes.
 * I can specify where my feature and definition files are to the Nukumber CLI.
   This means I can easily work on Cukes and Nukes on the same project if
   necessary.
 * I can still tag my features and scenarios and run them by tag.
+* I can still write feature files and have the runtime generate test definition
+  boilerplate.
