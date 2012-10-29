@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+unless $:.include?(File.dirname(__FILE__) + '/../lib')
+  $:.unshift(File.dirname(__FILE__) + '/../lib')
+end
+
+require 'nukumber'
+
+begin
+  Nukumber::Cli.new(ARGV.dup)
+rescue => e
+  STDERR.puts("#{e.message} (#{e.class})")
+  STDERR.puts(e.backtrace.join("\n"))
+  Kernel.exit(1)
+end

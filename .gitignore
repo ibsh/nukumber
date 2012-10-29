@@ -16,3 +16,10 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+*.swp
+*.swo
+
+.idea
+.DS_Store
+Gemfile.lock
